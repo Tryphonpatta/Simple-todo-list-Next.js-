@@ -1,5 +1,7 @@
 <<<<<<< HEAD
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![image](https://github.com/Tryphonpatta/Simple-todo-list-Next.js-/assets/98245320/25171078-f657-4b69-ac49-93c87719c0f7)
+
 
 ## Getting Started
 
