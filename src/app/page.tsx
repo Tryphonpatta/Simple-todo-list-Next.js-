@@ -3,6 +3,11 @@ import { getAllTodos } from "../../api";
 import Addtask from "./component/addtask"
 import Todolist from "./component/todolist"
 
+//@ts-ignore
+global.performance = global.performance || {
+  now: () => new Date().getTime(),
+};
+
 export default async function Home() {
   const task = await getAllTodos();
   console.log(task);  return (
