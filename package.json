@@ -6,8 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "start-render": "next start -p $PORT",
     "lint": "next lint",
-    "json-server": "json-server --watch data/todo.json --port 3001"
+    "start-json-server": "json-server --watch data/todo.json --port 3001"
   },
   "dependencies": {
     "next": "14.0.3",
